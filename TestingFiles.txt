@@ -1,0 +1,50 @@
+gcc -o lab1 lab1.c
+
+./lab1 <sampleInput1.txt> myOutput.txt
+diff sampleOutput1.txt myOutput.txt
+
+./lab1 <sampleInput2.txt> myOutput.txt
+diff sampleOutput2.txt myOutput.txt
+
+./lab1 <sampleInput3.txt> myOutput.txt
+diff sampleOutput3.txt myOutput.txt
+
+./lab1 <sampleInput4.txt> myOutput.txt
+diff sampleOutput4.txt myOutput.txt
+
+./lab1 <sampleInput5.txt> myOutput.txt
+diff sampleOutput5.txt myOutput.txt
+
+./lab1 <sampleInput6.txt> myOutput.txt
+diff sampleOutput6.txt myOutput.txt
+
+
+cat sampleInput1
+./lab1 <sampleInput1.txt> myOutput.txt
+cat sampleOutput1.txt 
+cat myOutput.txt
+
+cat sampleInput2
+./lab1 <sampleInput2.txt> myOutput.txt
+cat sampleOutput2.txt 
+cat myOutput.txt
+
+cat sampleInput3
+./lab1 <sampleInput3.txt> myOutput.txt
+cat sampleOutput3.txt 
+cat myOutput.txt
+
+cat sampleInput4
+./lab1 <sampleInput4.txt> myOutput.txt
+cat sampleOutput4.txt 
+cat myOutput.txt
+
+cat sampleInput5
+./lab1 <sampleInput5.txt> myOutput.txt
+cat sampleOutput5.txt 
+cat myOutput.txt
+
+cat sampleInput6
+./lab1 <sampleInput6.txt> myOutput.txt
+cat sampleOutput6.txt 
+cat myOutput.txt
